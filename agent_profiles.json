@@ -1,0 +1,141 @@
+{
+  "profiles": [
+    {
+      "id": "profile_1",
+      "name": "Chrome Windows Desktop",
+      "enabled": true,
+      "browser": {
+        "name": "Chrome",
+        "version": "120.0.6099.109",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "platform": {
+        "os": "Windows",
+        "version": "10.0",
+        "architecture": "x64"
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080,
+        "color_depth": 24
+      },
+      "timezone": "Asia/Ho_Chi_Minh",
+      "language": "vi-VN,vi;q=0.9,en;q=0.8",
+      "proxy": {
+        "type": "direct",
+        "enabled": true
+      }
+    },
+    {
+      "id": "profile_2",
+      "name": "Firefox Windows Desktop",
+      "enabled": true,
+      "browser": {
+        "name": "Firefox",
+        "version": "121.0",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0"
+      },
+      "platform": {
+        "os": "Windows",
+        "version": "10.0",
+        "architecture": "x64"
+      },
+      "screen": {
+        "width": 1366,
+        "height": 768,
+        "color_depth": 24
+      },
+      "timezone": "Asia/Ho_Chi_Minh",
+      "language": "vi-VN,vi;q=0.9,en;q=0.8",
+      "proxy": {
+        "type": "direct",
+        "enabled": true
+      }
+    },
+    {
+      "id": "profile_3",
+      "name": "Chrome MacOS Desktop",
+      "enabled": true,
+      "browser": {
+        "name": "Chrome",
+        "version": "120.0.6099.109",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "platform": {
+        "os": "MacOS",
+        "version": "10.15.7",
+        "architecture": "Intel"
+      },
+      "screen": {
+        "width": 1440,
+        "height": 900,
+        "color_depth": 24
+      },
+      "timezone": "Asia/Ho_Chi_Minh",
+      "language": "vi-VN,vi;q=0.9,en;q=0.8",
+      "proxy": {
+        "type": "direct",
+        "enabled": true
+      }
+    },
+    {
+      "id": "profile_4",
+      "name": "Safari MacOS Desktop",
+      "enabled": true,
+      "browser": {
+        "name": "Safari",
+        "version": "17.2",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15"
+      },
+      "platform": {
+        "os": "MacOS",
+        "version": "10.15.7",
+        "architecture": "Intel"
+      },
+      "screen": {
+        "width": 1680,
+        "height": 1050,
+        "color_depth": 24
+      },
+      "timezone": "Asia/Ho_Chi_Minh",
+      "language": "vi-VN,vi;q=0.9,en;q=0.8",
+      "proxy": {
+        "type": "direct",
+        "enabled": true
+      }
+    },
+    {
+      "id": "profile_5",
+      "name": "Edge Windows Desktop",
+      "enabled": true,
+      "browser": {
+        "name": "Edge",
+        "version": "120.0.2210.77",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.2210.77"
+      },
+      "platform": {
+        "os": "Windows",
+        "version": "11.0",
+        "architecture": "x64"
+      },
+      "screen": {
+        "width": 2560,
+        "height": 1440,
+        "color_depth": 24
+      },
+      "timezone": "Asia/Ho_Chi_Minh",
+      "language": "vi-VN,vi;q=0.9,en;q=0.8",
+      "proxy": {
+        "type": "direct",
+        "enabled": true
+      }
+    }
+  ],
+  "rotation_settings": {
+    "auto_rotate": true,
+    "rotate_interval_minutes": 30,
+    "rotate_on_error": true,
+    "max_requests_per_profile": 50,
+    "cooldown_minutes": 60
+  }
+}

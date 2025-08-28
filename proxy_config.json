@@ -1,0 +1,43 @@
+{
+  "proxies": [
+    {
+      "type": "http",
+      "host": "proxy1.example.com",
+      "port": 8080,
+      "username": "your_username",
+      "password": "your_password",
+      "enabled": false,
+      "note": "Proxy provider 1 - Disabled by default"
+    },
+    {
+      "type": "socks5",
+      "host": "proxy2.example.com",
+      "port": 1080,
+      "username": "",
+      "password": "",
+      "enabled": false,
+      "note": "Proxy provider 2 - Disabled by default"
+    },
+    {
+      "type": "direct",
+      "host": "direct",
+      "port": 0,
+      "username": "",
+      "password": "",
+      "enabled": true,
+      "note": "Direct connection - No proxy"
+    }
+  ],
+  "settings": {
+    "max_retries": 3,
+    "rotation_interval": 15,
+    "delay_range": [
+      1,
+      3
+    ],
+    "error_delay_range": [
+      10,
+      20
+    ]
+  }
+}

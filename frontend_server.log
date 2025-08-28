@@ -1,0 +1,5 @@
+
+> fpt-bill-manager-frontend@1.0.0 dev
+> vite --port 3002 --host 0.0.0.0
+
+sh: vite: command not found
